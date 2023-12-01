@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+
+.nav_a {
+    @apply hover:text-indigo-600 block p-4 font-bold text-sm text-center
+}
+
+div {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.p_row {
+    @apply p-2
+}
+
+.btn {
+    @apply bg-indigo-600 md:w-48 p-1 text-white rounded-md font-semibold hover:bg-indigo-700 cursor-pointer transition-colors text-center
+}
+
+.btn_white {
+    @apply bg-indigo-600 md:w-48 p-1 text-white rounded-md font-semibold hover:bg-gray-300 cursor-pointer transition-colors text-center
+}
+
+.btn_center{
+    margin-bottom: auto
+}
+
+.svg_blue {
+    @apply w-6 h-6 mt-1 text-blue-600
+}
+
+.svg_activo {
+    @apply  text-red-600
+}
+
+.table_row{
+    @apply table-row
+}
+
+.table_row_invs{
+    @apply table-row invisible
+}
+
+@tailwind utilities;
